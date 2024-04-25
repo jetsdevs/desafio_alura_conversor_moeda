@@ -2,12 +2,14 @@
 
 **Construindo um Conversor de Moedas em Java**
 
-Bem-vindo ao emocionante desafio de programação da Alura! Neste desafio, você terá a oportunidade de construir o seu próprio Conversor de Moedas em Java, 
+Bem-vindo ao emocionante desafio de programação da Alura! Neste desafio, tive a oportunidade de construir o meu próprio Conversor de Moedas em Java, 
 utilizando requisições a uma API de taxas de câmbio, manipulação de dados JSON, GSON e interação textual via console.
 
 # Objetivo
 
-O objetivo deste desafio é desenvolver um Conversor de Moedas que ofereça interação textual com os usuários através do console. O programa deve proporcionar no mínimo 6 opções distintas de conversões de moedas em um menu. As taxas de conversão não serão estáticas, mas sim dinamicamente obtidas por meio de uma API, garantindo dados precisos e em tempo real para uma experiência atualizada e eficaz.
+O objetivo deste desafio é desenvolver um Conversor de Moedas que ofereça interação textual com os usuários através do console. 
+O programa deve proporcionar no mínimo 6 opções distintas de conversões de moedas em um menu. 
+As taxas de conversão não serão estáticas, mas sim dinamicamente obtidas por meio de uma API, garantindo dados precisos e em tempo real para uma experiência atualizada e eficaz.
 
 # Pré-requisitos 
 
