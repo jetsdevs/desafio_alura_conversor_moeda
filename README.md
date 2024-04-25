@@ -4,7 +4,7 @@ Este é um projeto de conversor de moedas em Java, desenvolvido como parte do de
 A aplicação permite que o usuário converta valores entre diferentes moedas utilizando a API do exchangerate e a biblioteca Gson para manipulação de dados em JSON e GSON.
 
 
-# Pré-requisitos: 
+# Pré-requisitos 
 
 **Certifique-se de ter o seguinte instalado em seu ambiente de desenvolvimento:**
 
@@ -21,7 +21,7 @@ A aplicação permite que o usuário converta valores entre diferentes moedas ut
 * No código fonte da aplicação, localize o arquivo ConversorMoedas.java e substitua a variável API_KEY com a chave que você recebeu da API do exchangerate.
   * **private static final String API_KEY = "sua_chave_da_api";**
 
-# Executando a Aplicação:
+# Executando a Aplicação
 
 **Para executar a aplicação, siga estes passos:**
 
@@ -30,15 +30,15 @@ A aplicação permite que o usuário converta valores entre diferentes moedas ut
 * Configure a API conforme descrito na seção anterior.
 * Compile e execute o arquivo ConversorMoedas.java.
 
-# Uso da Aplicação:
+# Uso da Aplicação
 
 Ao executar a aplicação, o usuário será apresentado com um menu de opções para realizar conversões de moedas. 
 Basta seguir as instruções exibidas no console para converter os valores desejados.
 
-# Contribuindo: 
+# Contribuindo
 
 Contribuições são bem-vindas! Se você identificar melhorias, correções de bugs ou novas funcionalidades que possam agregar valor ao projeto, 
 sinta-se à vontade para enviar um pull request.
 
-# Licença:
+# Licença
 Este projeto está licenciado sob a Licença MIT - consulte o arquivo LICENSE.md para obter detalhes.
