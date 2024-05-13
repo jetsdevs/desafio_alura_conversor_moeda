@@ -1,51 +1,65 @@
-# Desafio
 
-**Construindo um Conversor de Moedas em Java**
+# 🪙 Conversor de Moedas 
 
-Bem-vindo ao emocionante desafio de programação da Alura! Neste desafio, tive a oportunidade de construir o meu próprio Conversor de Moedas em Java, 
-utilizando requisições a uma API de taxas de câmbio, manipulação de dados JSON, GSON e interação textual via console.
+Um simples conversor de moedas em Java que utiliza a ExchangeRate-API para obter as taxas de câmbio em tempo real.
 
-# Objetivo
+![Thumb project](https://github.com/vklisman/ConversordeMoedas/blob/master/template/thumb.png)
 
-O objetivo deste desafio é desenvolver um Conversor de Moedas que ofereça interação textual com os usuários através do console. 
-O programa deve proporcionar no mínimo 6 opções distintas de conversões de moedas em um menu. 
-As taxas de conversão não serão estáticas, mas sim dinamicamente obtidas por meio de uma API, garantindo dados precisos e em tempo real para uma experiência atualizada e eficaz.
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge)
 
-# Pré-requisitos 
+# 📑 Resumo do desafio
+Desenvolver um Conversor de Moedas que ofereça interação textual (via console) com os usuários, proporcionando no mínimo 6 opções distintas de conversões de moedas em um menu. A taxa de conversão não será estática, mas sim dinamicamente obtida por meio de uma API, garantindo dados precisos e em tempo real para uma experiência mais atualizada e eficaz.
 
-**Certifique-se de ter o seguinte instalado em seu ambiente de desenvolvimento:**
+Este desafio de programação faz parte do projeto Oracle Next One.
 
-* Java Development Kit (JDK) 8 ou superior
-* Gson (pode ser adicionado ao projeto manualmente ou via gerenciador de dependências)
 
-# Configuração da API
+## 🔨 Funcionalidades do projeto
 
-**Antes de executar a aplicação, é necessário configurar a chave da API do exchangerate. Siga os passos abaixo:**
+- `Conversão de moedas entre USD, BRL, EUR, ARS e CNY.` 
+- `Suporte para conversões bidirecionais entre as moedas disponíveis.` 
+- `Interface interativa de linha de comando para facilitar o uso.` 
 
-* Acesse o site exchangerate-api.com e crie uma conta gratuita.
-* Após criar a conta, você receberá uma chave da API. Copie essa chave.
-  
-* No código fonte da aplicação, localize o arquivo ConversorMoedas.java e substitua a variável API_KEY com a chave que você recebeu da API do exchangerate.
-  * **private static final String API_KEY = "sua_chave_da_api";**
+## ✔️ Técnicas e tecnologias utilizadas
 
-# Executando a Aplicação
+- ``Java``
+- ``InteliJ IDEA``
+- ``Gson``
+- ``Paradigma de orientação a objetos``
+- ``Google Gson (para manipulação de JSON)``
+- ``ExchangeRate-API (para obter as taxas de câmbio em tempo real)``
 
-**Para executar a aplicação, siga estes passos:**
 
-* Clone o repositório ou faça o download do código fonte para o seu computador.
-* Abra o projeto em seu ambiente de desenvolvimento.
-* Configure a API conforme descrito na seção anterior.
-* Compile e execute o arquivo ConversorMoedas.java.
 
-# Uso da Aplicação
+## 👨‍💻 Abrir e rodar o projeto
 
-Ao executar a aplicação, o usuário será apresentado com um menu de opções para realizar conversões de moedas. 
-Basta seguir as instruções exibidas no console para converter os valores desejados.
+Certifique-se de ter o Java instalado em sua máquina.
 
-# Contribuindo
+Clone este repositório:
 
-Contribuições são bem-vindas! Se você identificar melhorias, correções de bugs ou novas funcionalidades que possam agregar valor ao projeto, 
-sinta-se à vontade para enviar um pull request.
+```bash
+https://github.com/vklisman/conversor-de-moedas.git
+```
 
-# Licença
-Este projeto está licenciado sob a Licença MIT - consulte o arquivo LICENSE.md para obter detalhes.
+Navegue até o diretório do projeto:
+
+```bash
+cd conversor-de-moedas
+```
+
+Compile os arquivos Java:
+
+```bash
+javac *.java
+```
+
+Execute o programa:
+
+```bash
+java Main
+```
+
+Siga as instruções apresentadas na interface de linha de comando para converter moedas.
+## Licença
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
