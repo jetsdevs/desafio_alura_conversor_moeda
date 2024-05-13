@@ -37,7 +37,7 @@ Certifique-se de ter o Java instalado em sua máquina.
 Clone este repositório:
 
 ```bash
-https://github.com/vklisman/conversor-de-moedas.git
+https://github.com/jetsdevs/desafio_alura_conversor_moeda.git
 ```
 
 Navegue até o diretório do projeto:
